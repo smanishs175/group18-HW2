@@ -2,8 +2,16 @@ import math
 
 class Sym:
 
-    def __init__(self,_has):
-        self._has = _has
+    def __init__(self,c,s):
+        self.n = 0
+        self.at = 0
+        self.name = ""
+        self._has = {}
+        if c:
+            self.at = c
+        if s:
+            self.name = s
+        return (self.n, self.at, self.name, self._has)
         
     def add(self,v):
         if v != '?':
@@ -15,7 +23,7 @@ class Sym:
 
     def mid(self,col,most,mode):
         most=-1
-        for k,v in self._has:
+        for k,v in self._has.items():
             if v>most:
                 mode,most=k,v
         return mode
@@ -31,16 +39,7 @@ class Sym:
         return e
 
     
-    def new(self,c,s):
-        self.n = 0
-        at = 0
-        name = ""
-        self._has = {}
-        if c:
-            at = c
-        if s:
-            name = s
-        return (self.n , at, name, self._has)
+
      
         
 
