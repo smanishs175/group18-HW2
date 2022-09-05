@@ -2,7 +2,7 @@
     Helper class for parsing arguments
 """
 import sys
-from settings import the
+from src.settings import the
 
 class CLI():
 
