@@ -4,7 +4,7 @@ Thanks for showing your interest in contributing for our Homework project reposi
 
 # Code of Conduct 
 
-By participating and contributing to this project, you agree to uphold our Code of Conduct. Any unacceptable behaviour can be reported to msshinde@ncsu.edu 
+By participating and contributing to this project, you agree to uphold our Code of Conduct. Any unacceptable behaviour can be reported to svangal@ncsu.edu 
 
 Prerequisites to contribute to our project: 
   1. Must be a graduate student at North Carolina State University. 
