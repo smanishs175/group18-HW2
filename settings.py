@@ -1,5 +1,3 @@
-import cli
-
 class the:
 
     # initialize default values
@@ -20,7 +18,7 @@ class the:
             elif arguments[i] in ['-d', '--dump']:
                 self.setDump(arguments_values[i])
             elif arguments[i] in ['-h', '--help']:
-                cli.showHelp()
+                self.showHelp()
             elif arguments[i] in ['-f', '--file']:
                 self.setFile(arguments_values[i])
             elif arguments[i] in ['-n', '--nums']:
