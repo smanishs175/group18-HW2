@@ -9,7 +9,7 @@ class Sym:
             self.at = c
         if s:
             self.name = s
-        return (self.n, self.at, self.name, self._has)
+
 
 
     def mid(self,col,most = -1,mode=0):
