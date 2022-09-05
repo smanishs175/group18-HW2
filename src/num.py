@@ -1,6 +1,7 @@
 import random
 
 from settings import the
+from utils import percentile
 
 
 class Num:
@@ -41,11 +42,8 @@ class Num:
 
     def mid(self):
         a = self.nums()
-        percentile90 = (a[-1] - a[0]) * 0.9
-        percentile10 = (a[-1] - a[0]) * 0.1
-        return (percentile90 - percentile10) / 2.58
+        return (percentile(a, 90) - percentile(a, 10)) / 2.58
 
     def div(self):
         a = self.nums()
-        percentile50 = (a[-1] - a[0]) * 0.5
-        return percentile50
+        return percentile(a, 50)
