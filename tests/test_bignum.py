@@ -1,6 +1,6 @@
 import unittest
-from group18-HW2 import the
-from group18-HW2 import Num
+from CSC510_43.src.main import the
+from CSC510_43.src.num import Num
 
 class TestBigNum(unittest.TestCase):
 
