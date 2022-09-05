@@ -29,9 +29,9 @@ def Csv(fname=None, fun=None, sep=",", src=None, s=None,t=None):
     with open(path) as csvfile:
         reader = csv.reader(csvfile, delimiter=sep)
         for row in reader:
-            t = ()
+            t = {}
             for s1 in row:
-                t = t + (coerce(s1),)
+                t[1 + len(t)] = coerce(s1)
             fun(t)
             
                 

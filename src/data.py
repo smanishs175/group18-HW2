@@ -9,7 +9,7 @@ class Data:
     
     #Data:new function
     def __init__(self, src, theObj=the()):
-        self.rows = []
+        self.rows = {}
         self.cols = None
         if isinstance(src, str):
             Csv(src=src, sep = theObj.separator, fun=lambda x: self.add(x))
@@ -23,19 +23,17 @@ class Data:
         if not self.cols:
             self.cols = Cols(row)
         else:
-            # cells = xs.cell if xs else Row(xs)
             row = push(self.rows, Row(row))
-            for _,todo in zip(self.cols.x, self.cols.y):
-                for _, col in todo.items():
-                    col.add(row.cell[col.at])
-
-
+            for col in list(self.cols.x.values()) + list(self.cols.y.values()):
+                col.add(row.cell[col.at])
+                    
     #Data:stats function
-    def stats(self, places, showCols, fun, t,v):
+    def stats(self, places, showCols, fun):
         showCols = showCols or self.cols.y
         fun = fun or "mid"
         t = {}
         for _, col in showCols.items():
+            print(col)
             if fun == "mid":
                 v = col.mid()
             else:

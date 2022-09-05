@@ -13,11 +13,12 @@ class TestData(unittest.TestCase):
         return True
 
     def test_stats(self):
-        data = Data("../data/auto93.csv")
+        data = Data("../data/auto93.csv")       
         print('xmid=', data.stats(2, data.cols.x, "mid"))
         print('xdiv=', data.stats(3, data.cols.x, "div"))
         print('ymid=', data.stats(2, data.cols.y, "mid"))
         print('ymid=', data.stats(3, data.cols.y, "div"))
+
         return True
 
 

@@ -31,7 +31,7 @@ def copy(t):
     return dict(u)
 
 def push(t,x):
-    t.append(x)
+    t[1 + len(t)] = x
     return x
 
 def rnd(x, places=2):
