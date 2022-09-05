@@ -1,6 +1,5 @@
 import math
 
-
 def percentile(p, t):
-    p = math.floor(((p or 0.5) * len(t)) + 0.5)
-    return t[max(1, min(len(t), p))]
+    index  = math.ceil(len(p) * t/100.0) - 1
+    return p[index]
