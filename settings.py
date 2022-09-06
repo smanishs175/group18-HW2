@@ -47,4 +47,4 @@ class the:
                f"file: {self.file}\n" \
                f"help: {self.help}\n" \
                f"nums: {self.nums}\n" \
-               f"seed: {self.seed}\n" \
+               f"seed: {self.seed}\n"

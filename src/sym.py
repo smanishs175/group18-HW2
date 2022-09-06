@@ -13,7 +13,7 @@ class Sym:
             self.name = s
 
 
-    def mid(self,col,most = -1,mode=0):
+    def mid(self,col=0,most = -1,mode=0):
 
         for k, v in self._has.items():
             if v > most:
@@ -25,8 +25,11 @@ class Sym:
         if v != '?':
             self.n = self.n + 1
             value = 0
-            if self._has[v]:
+
+            if v in self._has:
                 value = self._has[v] + 1
+            else:
+                value = 1
             self._has[v] = value    
             
        

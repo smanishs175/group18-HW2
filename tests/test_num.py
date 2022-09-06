@@ -1,26 +1,17 @@
 import unittest
-from group18-HW2 import the
-from group18-HW2 import Num
+from src.settings import the
+from src.num import Num
 
 class TestNum(unittest.TestCase):
 
-    def test_div(self):
+    def test_num(self):
         '''Test case for div function'''
-        num = Num()
-        the['nums'] = 512
+        num = Num(0, "random")
         for i in range(1, 101):
             num.add(i)
-        std = num.div()
-        self.assertTrue(28 < std < 30)
-
-    def test_mid(self):
-        '''Test case for mid function'''
-        num = Num()
-        the['nums'] = 512
-        for i in range(1, 101):
-            num.add(i)
-        median = num.mid()
-        self.assertTrue(50 <= median <= 52)
+        mid, div = num.mid(), num.div()
+        print(mid, div, num.n)
+        self.assertTrue(50 <= mid and mid <= 52 and 30.5 < div and div < 32)
 
 if __name__ == "__main__":
   unittest.main()
