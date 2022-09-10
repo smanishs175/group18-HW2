@@ -12,3 +12,7 @@ def copy(t):
     for k, v in t.items():
         u[k] = copy(v)
     return dict(u)
+
+def push(t,x):
+    t.append(x)
+    return x
