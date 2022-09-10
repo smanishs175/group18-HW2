@@ -1,6 +1,18 @@
 import math
-
+from re import T
 
 def percentile(p, t):
-    p = math.floor(((p or 0.5) * len(t)) + 0.5)
-    return t[max(1, min(len(t), p))]
+    index  = math.ceil(len(p) * t/100.0) - 1
+    return p[index]
+
+def copy(t):
+    if not isinstance(t, dict):
+        return t
+    u = {}
+    for k, v in t.items():
+        u[k] = copy(v)
+    return dict(u)
+
+def push(t,x):
+    t.append(x)
+    return x
