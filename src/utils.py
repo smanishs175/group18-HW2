@@ -1,6 +1,23 @@
 import math
 from re import T
 
+def o(t):
+
+    if type(t) != dict:
+        return str(t)
+    
+    out = ""
+    for k,v in t.items():
+        temp = f"{k}: {v}"
+        # concat
+        out += " " + temp
+    
+    return out
+
+def oo(t):
+    print(o(t))
+    return t
+
 def percentile(p, t):
     index  = math.ceil(len(p) * t/100.0) - 1
     return p[index]
