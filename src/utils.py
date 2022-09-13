@@ -33,3 +33,7 @@ def copy(t):
 def push(t,x):
     t.append(x)
     return x
+
+def rnd(x, places=2):
+    mult = pow(10, places)
+    return math.floor(x * mult + 0.5) / mult

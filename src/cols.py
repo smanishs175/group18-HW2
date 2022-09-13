@@ -1,7 +1,8 @@
-import utils
-import num
-import sym
+import src.utils
+import src.num
+import src.sym
 import re
+
 class Cols:
 
     def __init__(self,names):
