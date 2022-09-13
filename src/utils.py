@@ -35,5 +35,4 @@ def push(t,x):
     return x
 
 def rnd(x, places=2):
-    mult = pow(10, places)
-    return math.floor(x * mult + 0.5) / mult
+    return round(x, places)
