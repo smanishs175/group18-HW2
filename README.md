@@ -6,9 +6,9 @@
 [![Python 3.8](https://img.shields.io/badge/Python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![GitHub repo size](https://img.shields.io/github/repo-size/smanishs175/group18-HW-2-3-4-5)](https://github.com/smanishs175/group18-HW-2-3-4-5/)
 [![GitHub contributors](https://img.shields.io/github/contributors/smanishs175/group18-HW-2-3-4-5)](https://github.com/smanishs175/group18-HW-2-3-4-5/graphs/contributors/)
-[![GitHub issues](https://img.shields.io/github/issues/smanishs175/group18-HW-2-3-4-5)](https://github.com/niharncsu/smanishs175/group18-HW-2-3-4-5)
+[![GitHub issues](https://img.shields.io/github/issues/smanishs175/group18-HW-2-3-4-5)](https://github.com/smanishs175/group18-HW-2-3-4-5)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/smanishs175/group18-HW-2-3-4-5)](https://github.com/smanishs175/group18-HW-2-3-4-5/pulls)
-[![GitHub last commit](https://img.shields.io/github/last-commit/smanishs175/group18-HW-2-3-4-5)](https://github.com/niharncsu/smanishs175/group18-HW-2-3-4-5/commits)
+[![GitHub last commit](https://img.shields.io/github/last-commit/smanishs175/group18-HW-2-3-4-5)](https://github.com/smanishs175/group18-HW-2-3-4-5/commits)
 
 The src folder has all the code associated with the application and tests folder has all the tests.
 
