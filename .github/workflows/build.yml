@@ -33,5 +33,5 @@ jobs:
   
     - name: Running unit tests
       run: |
-        python -m unittest tests/test_csv.py
+        python -m unittest tests/test_num.py
 
