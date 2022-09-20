@@ -9,6 +9,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/smanishs175/group18-HW-2-3-4-5)](https://github.com/smanishs175/group18-HW-2-3-4-5/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/smanishs175/group18-HW-2-3-4-5)](https://github.com/smanishs175/group18-HW-2-3-4-5/pulls)
 [![GitHub last commit](https://img.shields.io/github/last-commit/smanishs175/group18-HW-2-3-4-5)](https://github.com/smanishs175/group18-HW-2-3-4-5/commits)
+[![Build](https://github.com/smanishs175/group18-HW-2-3-4-5/actions/workflows/build.yml/badge.svg)](https://github.com/smanishs175/group18-HW-2-3-4-5/actions/workflows/build.yml)
 
 The src folder has all the code associated with the application and tests folder has all the tests.
 
