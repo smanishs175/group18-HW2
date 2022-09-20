@@ -16,7 +16,7 @@ permissions:
 jobs:
     
     
-  test:
+  build:
 
     runs-on: ubuntu-latest
 
@@ -31,7 +31,5 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest
   
-    - name: Running unit tests
-      run: |
-        python -m unittest tests/test_num.py
+  
 
