@@ -31,7 +31,7 @@
 |Use of code formatters. | Yes |
 |Use of syntax checkers. | Yes |
 |Use of code coverage | Yes |
-|Other automated analysis tools| NO |
+|Other automated analysis tools| No |
 |Test cases exist| Yes |
 |Test cases are routinely executed| Yes ([Test Result](https://app.travis-ci.com/github/arvindsrinivas1/SE-HW/builds/255747555))|
 |The files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up| Yes |
