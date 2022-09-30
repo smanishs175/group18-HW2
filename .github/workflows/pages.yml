@@ -1,0 +1,16 @@
+       python-version: 3.8
+      - name: install dependencies and run doc generator
+        run: pip install pdoc && python -m pdoc ./src/* -o ./docs/
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          # Upload entire repository
+          path: './docs/index.html'
+          path: './docs/'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
