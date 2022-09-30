@@ -1,4 +1,4 @@
-name:  Build, Test and generate coverage report
+name:  Generate documentation, Build, Test and upload coverage report
 
 on: [push]
 
@@ -22,9 +22,9 @@ jobs:
       - name: Run tests
         run: |
           pytest -v
-      - name: Run test with coverage report
+      - name: Run test with coverage report and generate documentation
         run: |
-          coverage run --source=. -m pytest && coverage xml
+          coverage run --source=. -m pytest && coverage xml && python3 -m pdoc ./src/* -o ./docs/
       - name: Upload coverage report
         uses: codecov/codecov-action@v2
         with:
