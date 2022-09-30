@@ -34,3 +34,8 @@ tests/test_num.py -> num
 tests/test_sym.py -> sym
 tests/test_the.py -> the
 
+Documentation for python files can be found on github pages: https://smanishs175.github.io/group18-HW-2-3-4-5/ 
+
+
+
+The above pages site will be automatically updated on every push to main branch.
