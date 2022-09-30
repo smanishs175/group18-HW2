@@ -1,35 +1,31 @@
-# This workflow contains information regarding build
+name:  Build, Test and generate coverage report
 
-# This workflow will install Python dependencies, run tests and lint with a single version of Python
-
-name: Build
-
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
-permissions:
-  contents: read
+on: [push]
 
 jobs:
-    
-    
   build:
-
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.9"]
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v3
-      with:
-        python-version: "3.10"
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install flake8 pytest
-  
-  
-
+      - uses: actions/checkout@v3
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Run tests
+        run: |
+          pytest -v
+      - name: Run test with coverage report
+        run: |
+          coverage run --source=. -m pytest && coverage xml
+      - name: Upload coverage report
+        uses: codecov/codecov-action@v2
+        with:
+          token: dd9b07c3-08b1-41ae-a90c-8b4ea8b242f7

@@ -1,7 +1,7 @@
 # group18-HW2
 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7029975.svg)](https://doi.org/10.5281/zenodo.7029975) 
+[![DOI](https://zenodo.org/badge/532350095.svg)](https://zenodo.org/badge/latestdoi/532350095)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.8](https://img.shields.io/badge/Python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![GitHub repo size](https://img.shields.io/github/repo-size/smanishs175/group18-HW-2-3-4-5)](https://github.com/smanishs175/group18-HW-2-3-4-5/)
