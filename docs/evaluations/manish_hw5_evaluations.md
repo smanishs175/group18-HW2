@@ -12,7 +12,7 @@
 ### Rubric:
 
 |Notes|Self-Assessment (Sum=49)|evidence|
-|-----|---------|
+|-----|------------------------|---------|
 |Video1|0| Not Needed for HW | 
 |Video2|0| Not Needed for HW | 
 |Workload is spread over the whole team. (One member "melonpii" is often 1.5 times more productive than other members. But neverthless, here is a track record that everyone is contributing a lot)| 2|  ([Contributor stats](https://github.com/VSangarya/SE22-group23-HW1/graphs/contributors)) |
