@@ -23,7 +23,7 @@
 |DOI badge: exists| 0  | Not Found
 |Docs: doco generated, format not ugly | 3|Yes ([Docs](https://htmlpreview.github.io/?https://raw.githubusercontent.com/agupta15k/ncsu_se_fall22_22_hw2-5/main/Docs/src/index.html))|
 |Docs: what: point descriptions of each class/function (in isolation) |3| Yes([Docs](https://htmlpreview.github.io/?https://raw.githubusercontent.com/agupta15k/ncsu_se_fall22_22_hw2-5/main/Docs/src/index.html)) |
-|Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z| N/A | 0|Not Found
+|Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z| |0|Not Found
 |Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing| 0 |Not Found
 |Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.| 0| Not Found
 |Use of version control tools|3| Yes , Github is used |
