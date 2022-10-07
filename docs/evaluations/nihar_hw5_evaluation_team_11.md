@@ -15,7 +15,7 @@
 |-----|------------------------|---------|
 |Video1|0| N/A | 
 |Video2|0| N/A | 
-|Workload is spread over the whole team(One member "Surya-06" is often 1.5 times productive than other) | No ([Contributor stats](https://github.com/Surya-06/SE-Proj22-Team11/graphs/contributors)) |
+|Workload is spread over the whole team(One member "Surya-06" is often 1.5 times productive than other) | No |([Contributor stats](https://github.com/Surya-06/SE-Proj22-Team11/graphs/contributors)) |
 |Number of commits|3| Total of 85 commits(https://github.com/Surya-06/SE-Proj22-Team11/graphs/commit-activity) |
 |Number of commits: by different people|2| Surya-06 -> 18 ; vemuriPradyumna -> 13 ; aditi-v9 -> 11 ; harshitha-ready-to-code -> 11 ; kaushikjadhav01 -> 9 |
 |Issues reports: there are| 1 | [Only one issue was found](https://github.com/Surya-06/SE-Proj22-Team11/issues?q=is%3Aissue+is%3Aclosed)
